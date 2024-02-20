@@ -1,25 +1,24 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "moduleResolution": "node10",
-    "sourceMap": true,
-    "outDir": "./dist",
-    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
     "noImplicitAny": true,
-    "skipLibCheck": true
+    "outDir": "dist",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES5"
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "dist",
-    "front",
-    "test",
-    "**/*spec.ts"
+    "dist"
   ]
 }
